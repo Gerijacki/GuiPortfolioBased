@@ -41,6 +41,8 @@ const LanguageWrapper = () => {
   const Footer = React.lazy(() => import(`${componentsPath}/Footer`));
 
   return (
+    // <React.Suspense fallback={<LoadingAnimation />}>
+
     <React.Suspense fallback={<LoadingAnimation />}>
       <div className="App">
         <Header />
