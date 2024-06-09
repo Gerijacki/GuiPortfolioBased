@@ -6,14 +6,25 @@ const Projects = () => {
     <div className="container">
         <h2 className="mb-5 pb-4"><span className="text-danger">Els meus</span> projectes</h2>
         <div className="row">
+        <div className="col-md-4 col-sm-6">
+                <div className="card mb-5">
+                   <div className="card-header has-icon">
+                        <i className="ti-bar-chart text-danger" aria-hidden="true"></i>
+                    </div>
+                    <div className="card-body px-4 py-3">
+                        <h5 className="mb-3 card-title text-dark">CF PBB LA ROCA</h5>
+                        <p className="subtitle">Desenmvolupament de la pàgina web oficial del <em> Club de futbol Penya blanca i blava la roca</em><br /><a href="https://cfpbblaroca.com">Web</a></p>
+                    </div>
+                </div>
+            </div>
             <div className="col-md-4 col-sm-6">
                 <div className="card mb-5">
                     <div className="card-header has-icon">
                         <i className="ti-write text-danger" aria-hidden="true"></i>
                     </div>
                     <div className="card-body px-4 py-3">
-                        <h5 className="mb-3 card-title text-dark">Facemashv2(eduQuack)</h5>
-                        <p className="subtitle">Xarxa social enfocada a una intranet escolar. Permet comunicar novetats
+                        <h5 className="mb-3 card-title text-dark">EduQuack</h5>
+                        <p className="subtitle">Xarxa social enfocada a una <em> intranet escolar </em>. Permet comunicar novetats
                             als alumnes, parlar entre si i fer grups amb els professors.<br /><a
                                 href="https://github.com/DuckHats/eduQuack">Github</a></p>
                     </div>
@@ -69,17 +80,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div className="col-md-4 col-sm-6">
-                <div className="card mb-5">
-                   <div className="card-header has-icon">
-                        <i className="ti-bar-chart text-danger" aria-hidden="true"></i>
-                    </div>
-                    <div className="card-body px-4 py-3">
-                        <h5 className="mb-3 card-title text-dark">CF PBB LA ROCA</h5>
-                        <p className="subtitle">Desenmvolupament de la pàgina web oficial del <em> Club de futbol Penya blanca i blava la roca</em><br /><a href="https://cfpbblaroca.com">Web</a></p>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
 </section>

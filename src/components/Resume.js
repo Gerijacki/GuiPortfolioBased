@@ -23,10 +23,10 @@ const Resume = () => {
                         <h6 className="title text-danger">Tècnic informàtic en una escola pública.</h6>
                         
                         <p className="subtitle">10/2022 - 06/2023 | Becari</p>
-                        <hr />
+                        {/* <hr />
                         <h6 className="title text-danger">2015 - 2016</h6>
                         <p>UX Designer</p>
-                        <p className="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</p>
+                        <p className="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</p> */}
                     </div>
                 </div>
             </div>
