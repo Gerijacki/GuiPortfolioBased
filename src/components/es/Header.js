@@ -16,9 +16,9 @@ const Header = () => {
                             className="ti-envelope" aria-hidden="true"></i></a></li>
             </ul>
             <div className="header-content">
-                <h4 className="header-subtitle">Hola, soc en</h4>
+                <h4 className="header-subtitle">Hola, soy</h4>
                 <h1 className="header-title">Gerard Loriz</h1>
-                <h6 className="header-mono">Tècnic superior en aplicacions multiplataforma</h6>
+                <h6 className="header-mono">Técnico superior en desarroyo de aplicaciones multiplataforma</h6>
             </div>
         </div>
     </header>
