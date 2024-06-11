@@ -9530,8 +9530,9 @@ pre .code {
   align-items: center;
   border-radius: 20px;
   overflow: hidden;
-  transition: width 0.3s ease;
+  transition: visibility 0.3s ease; /* Cambiado de 'width' a 'visibility' */
   border: 2px solid #653e7f; 
+  visibility: visible; /* Añadido para asegurarse de que esté visible inicialmente */
 }
 
 .language-select-container select {
@@ -9552,18 +9553,6 @@ pre .code {
   margin-right: 10px;
   color: #653e7f; 
   transition: all 0.3s ease;
-}
-
-/* .language-select-container:hover {
-  width: 180px;
-} */
-
-.language-select-container:hover select {
-  padding-right: 40px;
-}
-
-.language-select-container:hover i {
-  color: #653e7f; 
 }
 
 .language-select-container option {
