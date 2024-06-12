@@ -4,6 +4,7 @@ import LoadScripts from './components/cat/Loadscripts';
 import LoadingAnimation from './components/cat/Loading';
 import './assets/themify-icons/css/themify-icons.css';
 import './assets/css/style.css';
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
   return (
@@ -52,6 +53,7 @@ const LanguageWrapper = () => {
         <Projects />
         <Footer />
         <LoadScripts />
+        <Analytics/>
       </div>
     </React.Suspense>
   );
