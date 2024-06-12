@@ -7,8 +7,7 @@ const LoadScripts = () => {
       '/vendors/bootstrap/bootstrap.bundle.js',
       '/vendors/bootstrap/bootstrap.affix.js',
       '/vendors/isotope/isotope.pkgd.js',
-      '/js/script.js',
-      '/js/scroll.js'
+      '/js/script.js'
       ];
 
     const scriptElements = [];
