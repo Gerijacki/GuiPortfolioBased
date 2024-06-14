@@ -68,15 +68,7 @@ const Navbar = () => {
               <div className="brand-subtitle">Diseñador Web | Técnico informático</div>
             </li>
           </ul>
-          <div className="language-select-container">
-            <select id="languageSelect" defaultValue="es">
-              <option value="ca">Català</option>
-              <option value="es">Español</option>
-              <option value="en">English</option>
-            </select>
-            <i className="fas fa-language"></i>
 
-          </div>
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <a href="#about" className="nav-link">Contacto</a>

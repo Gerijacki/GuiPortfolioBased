@@ -74,15 +74,6 @@ const Navbar = () => {
                             <a href="#about" className="nav-link">Contacte</a>
                         </li>
                     </ul>
-                    <div className="language-select-container">
-                        <select id="languageSelect" defaultValue="cat">
-                            <option value="cat">Català</option>
-                            <option value="es">Español</option>
-                            <option value="en">English</option>
-                        </select>
-                        <i className="fas fa-language"></i>
-
-                    </div>
                 </div>
             </div>
         </nav>

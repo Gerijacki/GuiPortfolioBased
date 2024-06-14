@@ -63,7 +63,7 @@ const Projects = () => {
               <div className="card-body px-4 py-3">
                 <h5 className="mb-3 card-title text-dark">Shadowbyte</h5>
                 <p className="subtitle">Basic utility application for daily use made with Python.<br /><a
-                    href="https://github.com/Gerijacki/Shadowbyte">Github</a></p>
+                  href="https://github.com/Gerijacki/Shadowbyte">Github</a></p>
               </div>
             </div>
           </div>
@@ -80,7 +80,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          
+
         </div>
       </div>
     </section>
