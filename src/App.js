@@ -5,6 +5,7 @@ import LoadingAnimation from './components/cat/Loading';
 import './assets/themify-icons/css/themify-icons.css';
 import './assets/css/style.css';
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const App = () => {
   return (
@@ -53,7 +54,9 @@ const LanguageWrapper = () => {
         <Projects />
         <Footer />
         <LoadScripts />
+        {/* Vercel analytics */}
         <Analytics/>
+        <SpeedInsights/>
       </div>
     </React.Suspense>
   );
