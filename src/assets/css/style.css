@@ -9289,7 +9289,7 @@ pre .code {
   font-size: 18px;
 }
 .social-icons .social-link:hover {
-  color: #F85C70;
+  color: palevioletred;
 }
 
 .navbar {
@@ -9530,16 +9530,16 @@ pre .code {
   align-items: center;
   border-radius: 20px;
   overflow: hidden;
-  transition: visibility 0.3s ease; /* Cambiado de 'width' a 'visibility' */
+  transition: visibility 0.3s ease; 
   border: 2px solid #653e7f; 
-  visibility: visible; /* Añadido para asegurarse de que esté visible inicialmente */
+  visibility: visible; 
 }
 
 .language-select-container select {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  padding: 10px 20px;
+  padding: 10px 15px;
   font-size: 16px;
   border: none;
   background-color: transparent;

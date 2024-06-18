@@ -54,6 +54,9 @@ const Navbar = () => {
 
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
+              <a href="https://termfolio-gerijacki.vercel.app/" className="nav-link">Terminal</a>
+            </li>
+            <li className="nav-item">
               <a href="#about" className="nav-link">Contact</a>
             </li>
           </ul>
