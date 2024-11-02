@@ -9,7 +9,7 @@ const Projects = () => {
           <div className="col-md-4 col-sm-6">
             <div className="card mb-5">
               <div className="card-header has-icon">
-                <i className="ti-bar-chart text-danger" aria-hidden="true"></i>
+                <i className="ti-layout-cta-left text-danger" aria-hidden="true"></i>
               </div>
               <div className="card-body px-4 py-3">
                 <h5 className="mb-3 card-title text-dark">CF PBB LA ROCA</h5>
@@ -42,23 +42,22 @@ const Projects = () => {
               </div>
             </div>
           </div>
-
           <div className="col-md-4 col-sm-6">
             <div className="card mb-5">
               <div className="card-header has-icon">
-                <i className="ti-package text-danger" aria-hidden="true"></i>
+                <i className="ti-signal text-danger" aria-hidden="true"></i>
               </div>
               <div className="card-body px-4 py-3">
-                <h5 className="mb-3 card-title text-dark">Home_Server</h5>
-                <p className="subtitle">Auto-configuration script for a Linux server for a home
-                  environment.<br /><a href="https://github.com/Gerijacki/Home_server">Github</a></p>
+                <h5 className="mb-3 card-title text-dark">passWifi</h5>
+                <p className="subtitle">Automation scripts for "deauth" practice and hash decryption.<br />
+                  <a href="https://github.com/Gerijacki/passWifi">GitHub</a></p>
               </div>
             </div>
           </div>
           <div className="col-md-4 col-sm-6">
             <div className="card mb-5">
               <div className="card-header has-icon">
-                <i className="ti-map-alt text-danger" aria-hidden="true"></i>
+                <i className="ti-widget text-danger" aria-hidden="true"></i>
               </div>
               <div className="card-body px-4 py-3">
                 <h5 className="mb-3 card-title text-dark">Shadowbyte</h5>
@@ -70,7 +69,7 @@ const Projects = () => {
           <div className="col-md-4 col-sm-6">
             <div className="card mb-5">
               <div className="card-header has-icon">
-                <i className="ti-support text-danger" aria-hidden="true"></i>
+                <i className="ti-rss-alt text-danger" aria-hidden="true"></i>
               </div>
               <div className="card-body px-4 py-3">
                 <h5 className="mb-3 card-title text-dark">Cyber_Startupv2</h5>
@@ -80,6 +79,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
+
 
         </div>
       </div>

@@ -9284,6 +9284,7 @@ pre .code {
   display: flex;
   justify-content: space-between;
   max-width: 180px;
+  margin: 0 auto;
 }
 .social-icons .social-link {
   font-size: 18px;
