@@ -30,7 +30,6 @@ const Navbar = () => {
       languageSelect.addEventListener('change', handleLanguageChange);
     }
 
-    // Cleanup event listener on component unmount
     return () => {
       if (languageSelect) {
         languageSelect.removeEventListener('change', handleLanguageChange);
@@ -39,11 +38,11 @@ const Navbar = () => {
   }, []);
 
   const handleNavigation = (event, targetId) => {
-    event.preventDefault(); // Evita la recarga de la página
+    event.preventDefault();
     const targetElement = document.getElementById(targetId);
 
     if (targetElement) {
-      targetElement.scrollIntoView({ behavior: 'smooth' }); // Desplazamiento suave
+      targetElement.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
