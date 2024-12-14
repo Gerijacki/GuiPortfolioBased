@@ -38,6 +38,15 @@ const Navbar = () => {
     };
   }, []);
 
+  const handleNavigation = (event, targetId) => {
+    event.preventDefault(); // Evita la recarga de la página
+    const targetElement = document.getElementById(targetId);
+
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth' }); // Desplazamiento suave
+    }
+  };
+
   return (
     <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
       <div className="container">
@@ -49,16 +58,16 @@ const Navbar = () => {
         <div className="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
-              <a href="#home" className="nav-link">Inicio</a>
+              <a href="#home" className="nav-link" onClick={(e) => handleNavigation(e, 'home')}>Inicio</a>
             </li>
             <li className="nav-item">
-              <a href="#about" className="nav-link">Sobre mí</a>
+              <a href="#about" className="nav-link" onClick={(e) => handleNavigation(e, 'about')}>Sobre mí</a>
             </li>
             <li className="nav-item">
-              <a href="#resumen" className="nav-link">Conocimientos</a>
+              <a href="#resumen" className="nav-link" onClick={(e) => handleNavigation(e, 'resumen')}>Conocimientos</a>
             </li>
             <li className="nav-item">
-              <a href="#proyectos" className="nav-link">Proyectos</a>
+              <a href="#proyectos" className="nav-link" onClick={(e) => handleNavigation(e, 'proyectos')}>Proyectos</a>
             </li>
           </ul>
           <ul className="navbar-nav brand">
@@ -74,13 +83,13 @@ const Navbar = () => {
               <a href="https://termfolio-gerijacki.vercel.app/" className="nav-link">Terminal</a>
             </li>
             <li className="nav-item">
-              <a href="#about" className="nav-link">Contacto</a>
+              <a href="#contact" className="nav-link" onClick={(e) => handleNavigation(e, 'contact')}>Contacto</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
   );
-}
+};
 
 export default Navbar;

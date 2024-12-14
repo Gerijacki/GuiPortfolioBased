@@ -20,7 +20,7 @@ const About = () => {
                     </p>
                 </div>
 
-                <div className="col-lg-4 about-card">
+                <div id='contact' className="col-lg-4 about-card">
                     <h3 className="font-weight-light">Informació Personal i Contacte</h3>
                     <span className="line mb-5"></span>
                     <ul className="mt40 info list-unstyled">

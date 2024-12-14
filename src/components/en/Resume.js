@@ -16,7 +16,7 @@ const Resume = () => {
               </div>
               <div className="card-body">
                 <h6 className="title text-danger">Multiplatform application development in a pharmaceutical company.</h6>
-                <p className="subtitle">04/2024 - Present | Intern (Dual)</p>
+                <p className="subtitle">04/2024 - Present | Junior developer</p>
                 <hr />
                 <h6 className="title text-danger">IT Technician in a public school.</h6>
                 <p className="subtitle">10/2022 - 06/2023 | Intern</p>

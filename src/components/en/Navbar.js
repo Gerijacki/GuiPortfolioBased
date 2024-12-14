@@ -13,13 +13,21 @@ const Navbar = () => {
       languageSelect.addEventListener('change', handleLanguageChange);
     }
 
-    // Cleanup event listener on component unmount
     return () => {
       if (languageSelect) {
         languageSelect.removeEventListener('change', handleLanguageChange);
       }
     };
   }, []);
+
+  const handleNavigation = (event, targetId) => {
+    event.preventDefault();
+    const targetElement = document.getElementById(targetId);
+
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
@@ -32,16 +40,16 @@ const Navbar = () => {
         <div className="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
-              <a href="#home" className="nav-link">Home</a>
+              <a href="#home" className="nav-link" onClick={(e) => handleNavigation(e, 'home')}>Home</a>
             </li>
             <li className="nav-item">
-              <a href="#about" className="nav-link">About Me</a>
+              <a href="#about" className="nav-link" onClick={(e) => handleNavigation(e, 'about')}>About Me</a>
             </li>
             <li className="nav-item">
-              <a href="#resume" className="nav-link">Skills</a>
+              <a href="#resume" className="nav-link" onClick={(e) => handleNavigation(e, 'resume')}>Skills</a>
             </li>
             <li className="nav-item">
-              <a href="#projects" className="nav-link">Projects</a>
+              <a href="#projects" className="nav-link" onClick={(e) => handleNavigation(e, 'projects')}>Projects</a>
             </li>
           </ul>
           <ul className="navbar-nav brand">
@@ -57,13 +65,13 @@ const Navbar = () => {
               <a href="https://termfolio-gerijacki.vercel.app/" className="nav-link">Terminal</a>
             </li>
             <li className="nav-item">
-              <a href="#about" className="nav-link">Contact</a>
+              <a href="#contact" className="nav-link" onClick={(e) => handleNavigation(e, 'contact')}>Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
   );
-}
+};
 
 export default Navbar;

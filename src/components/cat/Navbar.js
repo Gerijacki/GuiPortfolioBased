@@ -38,6 +38,15 @@ const Navbar = () => {
         };
     }, []);
 
+    const handleNavigation = (event, targetId) => {
+        event.preventDefault();
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     return (
         <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
             <div className="container">
@@ -49,16 +58,16 @@ const Navbar = () => {
                 <div className="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
-                            <a href="#home" className="nav-link">Inici</a>
+                            <a href="#home" className="nav-link" onClick={(e) => handleNavigation(e, 'home')}>Inici</a>
                         </li>
                         <li className="nav-item">
-                            <a href="#about" className="nav-link">Sobre mi</a>
+                            <a href="#about" className="nav-link" onClick={(e) => handleNavigation(e, 'about')}>Sobre mi</a>
                         </li>
                         <li className="nav-item">
-                            <a href="#resume" className="nav-link">Coneixements</a>
+                            <a href="#resume" className="nav-link" onClick={(e) => handleNavigation(e, 'resume')}>Coneixements</a>
                         </li>
                         <li className="nav-item">
-                            <a href="#projectes" className="nav-link">Projectes</a>
+                            <a href="#projectes" className="nav-link" onClick={(e) => handleNavigation(e, 'projectes')}>Projectes</a>
                         </li>
                     </ul>
                     <ul className="navbar-nav brand">
@@ -74,7 +83,7 @@ const Navbar = () => {
                             <a href="https://termfolio-gerijacki.vercel.app/" className="nav-link">Terminal</a>
                         </li>
                         <li className="nav-item">
-                            <a href="#about" className="nav-link">Contacte</a>
+                            <a href="#contact" className="nav-link" onClick={(e) => handleNavigation(e, 'contact')}>Contacte</a>
                         </li>
                     </ul>
                 </div>
