@@ -9526,7 +9526,7 @@ pre .code {
 .language-select-container {
   position: fixed;
   top: 20px;
-  right: 20px;
+  right: 10px;
   display: flex;
   align-items: center;
   border-radius: 20px;
