@@ -59,38 +59,54 @@
   },
   "contactSection": {
     "title": "Información Personal y Contacto",
-    "info": {
-      "title": "Fecha de nacimiento",
-      "birthDate": "12/12/2005",
-      "email": "gerijackidev@gmail.com"
-    },
+    "info": [
+      {
+        "label": "Fecha de nacimiento",
+        "value": "12/12/2005"
+      },
+      {
+        "label": "Email",
+        "value": "gerijackidev@gmail.com"
+      }
+    ],
     "socialLinks": [
       {
-        "platform": "Twitter",
-        "url": "https://x.com/byjacki12?t=8xClF2LnxDgyy8-hA3rsKQ&s=09"
+        "icon": "ti-twitter",
+        "href": "https://x.com/byjacki12"
       },
       {
-        "platform": "Instagram",
-        "url": "https://www.instagram.com/byjacki12/"
+        "icon": "ti-instagram",
+        "href": "https://www.instagram.com/byjacki12/"
       },
       {
-        "platform": "Github",
-        "url": "https://github.com/Gerijacki"
+        "icon": "ti-github",
+        "href": "https://github.com/Gerijacki"
       },
       {
-        "platform": "TryHackMe",
-        "url": "https://tryhackme.com/p/F1ch3u5"
+        "icon": "ti-envelope",
+        "href": "https://tryhackme.com/p/F1ch3u5"
       }
     ]
   },
   "servicesSection": {
     "title": "Servicios",
-    "designName": "Diseño Web",
-    "designDescription": "WordPress / HTML / CSS / PHP / Laravel",
-    "serverName": "Gestión de Servidores",
-    "serverDescription": "Gestión de redes de computadoras en entornos empresariales.",
-    "offName": "Aplicaciones Ofimáticas",
-    "offDescription": "Word, Excel, PowerPoint, Redes Sociales, etc."
+    "services": [
+      {
+        "name": "Diseño de páginas web",
+        "description": "Creación de webs modernas y responsivas.",
+        "icon": "ti-widget"
+      },
+      {
+        "name": "Configuración de servidores",
+        "description": "Configuración segura de servidores para proyectos.",
+        "icon": "ti-paint-bucket"
+      },
+      {
+        "name": "Optimización de aplicaciones",
+        "description": "Mejora del rendimiento y velocidad de las aplicaciones.",
+        "icon": "ti-stats-up"
+      }
+    ]
   },
   "headerSection": {
     "subtitle": "Hola, soy",

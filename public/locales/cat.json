@@ -59,38 +59,54 @@
   },
   "contactSection": {
     "title": "Informació Personal i Contacte",
-    "info": {
-      "title": "Data de naixement",
-      "birthDate": "12/12/2005",
-      "email": "gerijackidev@gmail.com"
-    },
+    "info": [
+      {
+        "label": "Data de naixement",
+        "value": "12/12/2005"
+      },
+      {
+        "label": "Email",
+        "value": "gerijackidev@gmail.com"
+      }
+    ],
     "socialLinks": [
       {
-        "platform": "Twitter",
-        "url": "https://x.com/byjacki12?t=8xClF2LnxDgyy8-hA3rsKQ&s=09"
+        "icon": "ti-twitter",
+        "href": "https://x.com/byjacki12"
       },
       {
-        "platform": "Instagram",
-        "url": "https://www.instagram.com/byjacki12/"
+        "icon": "ti-instagram",
+        "href": "https://www.instagram.com/byjacki12/"
       },
       {
-        "platform": "Github",
-        "url": "https://github.com/Gerijacki"
+        "icon": "ti-github",
+        "href": "https://github.com/Gerijacki"
       },
       {
-        "platform": "TryHackMe",
-        "url": "https://tryhackme.com/p/F1ch3u5"
+        "icon": "ti-envelope",
+        "href": "https://tryhackme.com/p/F1ch3u5"
       }
     ]
   },
   "servicesSection": {
     "title": "Serveis",
-    "designName": "Disseny Web",
-    "designDescription": "Wordpress / Html / Css / PHP / Laravel",
-    "serverName": "Gestió de servidors",
-    "serverDescription": "Gestió de xarxes d'ordinadors en entorns empresarials.",
-    "offName": "Aplicacions Ofimàtiques",
-    "offDescription": "Word, Excel, PowerPoint, Xarxes Socials, etc."
+    "services": [
+      {
+        "name": "Disseny de pàgines web",
+        "description": "Creació de webs modernes i responsives.",
+        "icon": "ti-widget"
+      },
+      {
+        "name": "Configuració de servidors",
+        "description": "Configuració segura de servidors per a projectes.",
+        "icon": "ti-paint-bucket"
+      },
+      {
+        "name": "Optimització d'aplicacions",
+        "description": "Millora del rendiment i velocitat de les aplicacions.",
+        "icon": "ti-stats-up"
+      }
+    ]
   },
   "headerSection": {
     "subtitle": "Hola, soc en",

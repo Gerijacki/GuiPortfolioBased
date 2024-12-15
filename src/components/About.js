@@ -45,19 +45,20 @@ const About = () => {
                     <h3 className="font-weight-light">{translations.contactSection.title}</h3>
                     <span className="line mb-5"></span>
                     <ul className="mt40 info list-unstyled">
-                        <li><span>{translations.contactSection.info.title}</span> : {translations.contactSection.info.birthDate}</li>
-                        <li><span>Email</span> : {translations.contactSection.info.email}</li>
+                        {translations.contactSection.info.map((item, index) => (
+                            <li key={index}>
+                                <span>{item.label}</span> : {item.value}
+                            </li>
+                        ))}
                     </ul>
                     <ul className="social-icons pt-3">
-                        <li className="social-item"><a className="social-link"
-                            href="https://x.com/byjacki12?t=8xClF2LnxDgyy8-hA3rsKQ&s=09"><i className="ti-twitter"
-                                aria-hidden="true"></i></a></li>
-                        <li className="social-item"><a className="social-link" href="https://www.instagram.com/byjacki12/"><i
-                            className="ti-instagram" aria-hidden="true"></i></a></li>
-                        <li className="social-item"><a className="social-link" href="https://github.com/Gerijacki"><i
-                            className="ti-github" aria-hidden="true"></i></a></li>
-                        <li className="social-item"><a className="social-link" href="https://tryhackme.com/p/F1ch3u5"><i
-                            className="ti-envelope" aria-hidden="true"></i></a></li>
+                        {translations.contactSection.socialLinks.map((link, index) => (
+                            <li key={index} className="social-item">
+                                <a className="social-link" href={link.href}>
+                                    <i className={link.icon} aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        ))}
                     </ul>
                     <div className="d-flex justify-content-start align-items-center">
                         <h4 className="font-weight-light">{translations.resumeSection.languages.title}</h4>
@@ -77,30 +78,18 @@ const About = () => {
                 <div className="col-lg-4 about-card">
                     <h3 className="font-weight-light">{translations.servicesSection.title}</h3>
                     <span className="line mb-5"></span>
-                    <div className="row">
-                        <div className="col-1 text-danger pt-1"><i className="ti-widget icon-lg"></i></div>
-                        <div className="col-10 ml-auto mr-3">
-                            <h6>{translations.servicesSection.designName}</h6>
-                            <p className="subtitle">{translations.servicesSection.designDescription}</p>
-                            <hr />
+                    {translations.servicesSection.services.map((service, index) => (
+                        <div className="row" key={index}>
+                            <div className="col-1 text-danger pt-1">
+                                <i className={service.icon}></i>
+                            </div>
+                            <div className="col-10 ml-auto mr-3">
+                                <h6>{service.name}</h6>
+                                <p className="subtitle">{service.description}</p>
+                                <hr />
+                            </div>
                         </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-1 text-danger pt-1"><i className="ti-paint-bucket icon-lg"></i></div>
-                        <div className="col-10 ml-auto mr-3">
-                            <h6>{translations.servicesSection.serverName}</h6>
-                            <p className="subtitle">{translations.servicesSection.serverDescription}</p>
-                            <hr />
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-1 text-danger pt-1"><i className="ti-stats-up icon-lg"></i></div>
-                        <div className="col-10 ml-auto mr-3">
-                            <h6>{translations.servicesSection.offNamee}</h6>
-                            <p className="subtitle">{translations.servicesSection.offDescription}</p>
-                            <hr />
-                        </div>
-                    </div>
+                    ))}
                 </div>
             </div>
         </div>
