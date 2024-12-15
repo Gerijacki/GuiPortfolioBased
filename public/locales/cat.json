@@ -1,0 +1,202 @@
+{
+  "home": "Inici",
+  "resume": "Currículum",
+  "projects": "Projectes",
+  "contact": "Contacte",
+  "projectsSection": {
+    "titlePrefix": "Els meus",
+    "title": "projectes",
+    "projectList": [
+      {
+        "name": "CF PBB LA ROCA",
+        "description": "Desenvolupament de la pàgina web oficial del Club de futbol Penya blanca i blava la roca",
+        "link": "https://cfpbblaroca.com",
+        "linkText": "Web",
+        "icon": "layout-cta-left"
+      },
+      {
+        "name": "EduQuack",
+        "description": "Xarxa social enfocada a una intranet escolar. Permet comunicar novetats als alumnes, parlar entre si i fer grups amb els professors.",
+        "link": "https://github.com/DuckHats/eduQuack",
+        "linkText": "Github",
+        "icon": "write"
+      },
+      {
+        "name": "Google-SignIn",
+        "description": "Projecte de GitHub sobre com fer un servidor de phishing basat en l'eina zPhisher.",
+        "link": "https://github.com/SergiGiribet/google-SignIn",
+        "linkText": "Github",
+        "icon": "vector"
+      },
+      {
+        "name": "passWifi",
+        "description": "Scripts d'automatització per a la pràctica de 'deauth' i desencriptació de hashes.",
+        "link": "https://github.com/Gerijacki/passWifi",
+        "linkText": "Github",
+        "icon": "signal"
+      },
+      {
+        "name": "Shadowbyte",
+        "description": "Aplicació d'utilitats bàsiques pel dia a dia feta amb Python.",
+        "link": "https://github.com/Gerijacki/Shadowbyte",
+        "linkText": "Github",
+        "icon": "widget"
+      },
+      {
+        "name": "Cyber_Startupv2",
+        "description": "Aquest repositori serveix com a centre centralitzat per a diversos materials relacionats amb la ciberseguretat, inclosos scripts, recursos i informació.",
+        "link": "https://github.com/Gerijacki/Cyber_Startupv2",
+        "linkText": "Github",
+        "icon": "rss-alt"
+      }
+    ]
+  },
+  "aboutSection": {
+    "title": "Qui soc?",
+    "content1": "Hola! Sóc un jove apassionat per la tecnologia, sempre encuriosit per entendre com funcionen les coses i amb una gran afició per tot el que envolta la informàtica. Des de ben petit, m'ha encantat explorar, desmuntar i crear. Aquesta curiositat m'ha portat a especialitzar-me en la creació web, la programació i la ciberseguretat, camps en què puc canalitzar tant la meva creativitat com el meu interès per oferir solucions segures i efectives.",
+    "content2": "M'agrada implicar-me al màxim en cada projecte, des del concepte inicial fins a la seva implementació final, assegurant-me que cada detall funcioni a la perfecció i sigui segur. Sempre que em trobo amb un repte tecnològic, el veig com una oportunitat per créixer i posar a prova les meves habilitats.",
+    "content3": "Amb una mentalitat de millora contínua, estic constantment buscant formes d'innovar i d'estar al dia amb les últimes tendències tecnològiques. Crec que cada projecte és una oportunitat d’aprenentatge i un reflex del meu compromís i passió per la tecnologia."
+  },
+  "contactSection": {
+    "title": "Informació Personal i Contacte",
+    "info": {
+      "title": "Data de naixement",
+      "birthDate": "12/12/2005",
+      "email": "gerijackidev@gmail.com"
+    },
+    "socialLinks": [
+      {
+        "platform": "Twitter",
+        "url": "https://x.com/byjacki12?t=8xClF2LnxDgyy8-hA3rsKQ&s=09"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/byjacki12/"
+      },
+      {
+        "platform": "Github",
+        "url": "https://github.com/Gerijacki"
+      },
+      {
+        "platform": "TryHackMe",
+        "url": "https://tryhackme.com/p/F1ch3u5"
+      }
+    ]
+  },
+  "servicesSection": {
+    "title": "Serveis",
+    "designName": "Disseny Web",
+    "designDescription": "Wordpress / Html / Css / PHP / Laravel",
+    "serverName": "Gestió de servidors",
+    "serverDescription": "Gestió de xarxes d'ordinadors en entorns empresarials.",
+    "offName": "Aplicacions Ofimàtiques",
+    "offDescription": "Word, Excel, PowerPoint, Xarxes Socials, etc."
+  },
+  "headerSection": {
+    "subtitle": "Hola, soc en",
+    "title": "Gerard Loriz",
+    "mono": "Tècnic superior en el desenvolupament d'aplicacions multiplataforma",
+    "socialLinks": [
+      {
+        "platform": "Twitter",
+        "url": "https://x.com/byjacki12?t=8xClF2LnxDgyy8-hA3rsKQ&s=09",
+        "icon": "ti-twitter"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/byjacki12/",
+        "icon": "ti-instagram"
+      },
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/Gerijacki",
+        "icon": "ti-github"
+      },
+      {
+        "platform": "TryHackMe",
+        "url": "https://tryhackme.com/p/F1ch3u5",
+        "icon": "ti-envelope"
+      }
+    ]
+  },
+  "resumeSection": {
+    "title": "El Meu Resum",
+    "experience": {
+      "title": "Experiència",
+      "items": [
+        {
+          "position": "Desenvolupador junior",
+          "company": "Empresa del sector farmacèutic",
+          "period": "04/2024 - Actualment"
+        },
+        {
+          "position": "Tècnic informàtic",
+          "company": "Escola pública",
+          "period": "10/2022 - 06/2023"
+        }
+      ]
+    },
+    "studies": {
+      "title": "Estudis",
+      "items": [
+        {
+          "title": "Cicle superior de desenvolupament d'aplicacions multiplataforma",
+          "period": "09/2023 - Actualment"
+        },
+        {
+          "title": "Cicle mitjà de sistemes microinformàtics i xarxes",
+          "period": "09/2021 - 05/2023"
+        },
+        {
+          "title": "Educació Secundària Obligatòria. Itinerari Tecnològic",
+          "period": "09/2017 - 07/2021"
+        }
+      ]
+    },
+    "tools": {
+      "title": "Eines",
+      "skills": [
+        {
+          "name": "Web (HTML / CSS / PHP / Laravel / Nodejs)",
+          "level": "83%"
+        },
+        {
+          "name": "Java",
+          "level": "50%"
+        },
+        {
+          "name": "Sistemes Operatius (Linux / bash / active directory)",
+          "level": "80%"
+        },
+        {
+          "name": "Python",
+          "level": "85%"
+        },
+        {
+          "name": "Ofimàtica i xarxes socials",
+          "level": "95%"
+        }
+      ]
+    },
+    "languages": {
+      "title": "Idiomes",
+      "skills": [
+        {
+          "name": "Anglès",
+          "level": "B2",
+          "percentage": "50%"
+        },
+        {
+          "name": "Català",
+          "level": "Materna",
+          "percentage": "99%"
+        },
+        {
+          "name": "Castellà",
+          "level": "Nadiu",
+          "percentage": "80%"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "home": "Inicio",
+  "resume": "Currículum",
+  "projects": "Proyectos",
+  "contact": "Contacto",
+  "projectsSection": {
+    "titlePrefix": "Mis",
+    "title": "proyectos",
+    "projectList": [
+      {
+        "name": "CF PBB LA ROCA",
+        "description": "Desarrollo de la página web oficial del Club de Fútbol Penya blanca i blava la roca",
+        "link": "https://cfpbblaroca.com",
+        "linkText": "Web",
+        "icon": "layout-cta-left"
+      },
+      {
+        "name": "EduQuack",
+        "description": "Red social enfocada a una intranet escolar. Permite comunicar novedades a los alumnos, chatear entre ellos y crear grupos con los profesores.",
+        "link": "https://github.com/DuckHats/eduQuack",
+        "linkText": "Github",
+        "icon": "write"
+      },
+      {
+        "name": "Google-SignIn",
+        "description": "Proyecto de GitHub sobre cómo hacer un servidor de phishing basado en la herramienta zPhisher.",
+        "link": "https://github.com/SergiGiribet/google-SignIn",
+        "linkText": "Github",
+        "icon": "vector"
+      },
+      {
+        "name": "passWifi",
+        "description": "Scripts de automatización para la práctica de 'deauth' y desencriptación de hashes.",
+        "link": "https://github.com/Gerijacki/passWifi",
+        "linkText": "Github",
+        "icon": "signal"
+      },
+      {
+        "name": "Shadowbyte",
+        "description": "Aplicación de utilidades básicas para el día a día hecha con Python.",
+        "link": "https://github.com/Gerijacki/Shadowbyte",
+        "linkText": "Github",
+        "icon": "widget"
+      },
+      {
+        "name": "Cyber_Startupv2",
+        "description": "Este repositorio sirve como un centro centralizado para diversos materiales relacionados con la ciberseguridad, incluyendo scripts, recursos e información.",
+        "link": "https://github.com/Gerijacki/Cyber_Startupv2",
+        "linkText": "Github",
+        "icon": "rss-alt"
+      }
+    ]
+  },
+  "aboutSection": {
+    "title": "¿Quién soy?",
+    "content1": "¡Hola! Soy un joven apasionado por la tecnología, siempre curioso por entender cómo funcionan las cosas y con una gran afición por todo lo relacionado con la informática. Desde pequeño, me ha encantado explorar, desarmar y crear. Esta curiosidad me ha llevado a especializarme en el desarrollo web, la programación y la ciberseguridad, campos en los que puedo canalizar tanto mi creatividad como mi interés por ofrecer soluciones seguras y efectivas.",
+    "content2": "Me gusta involucrarme al máximo en cada proyecto, desde el concepto inicial hasta su implementación final, asegurándome de que cada detalle funcione a la perfección y sea seguro. Siempre que me encuentro con un desafío tecnológico, lo veo como una oportunidad para crecer y poner a prueba mis habilidades.",
+    "content3": "Con una mentalidad de mejora continua, estoy constantemente buscando formas de innovar y estar al día con las últimas tendencias tecnológicas. Creo que cada proyecto es una oportunidad de aprendizaje y un reflejo de mi compromiso y pasión por la tecnología."
+  },
+  "contactSection": {
+    "title": "Información Personal y Contacto",
+    "info": {
+      "title": "Fecha de nacimiento",
+      "birthDate": "12/12/2005",
+      "email": "gerijackidev@gmail.com"
+    },
+    "socialLinks": [
+      {
+        "platform": "Twitter",
+        "url": "https://x.com/byjacki12?t=8xClF2LnxDgyy8-hA3rsKQ&s=09"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/byjacki12/"
+      },
+      {
+        "platform": "Github",
+        "url": "https://github.com/Gerijacki"
+      },
+      {
+        "platform": "TryHackMe",
+        "url": "https://tryhackme.com/p/F1ch3u5"
+      }
+    ]
+  },
+  "servicesSection": {
+    "title": "Servicios",
+    "designName": "Diseño Web",
+    "designDescription": "WordPress / HTML / CSS / PHP / Laravel",
+    "serverName": "Gestión de Servidores",
+    "serverDescription": "Gestión de redes de computadoras en entornos empresariales.",
+    "offName": "Aplicaciones Ofimáticas",
+    "offDescription": "Word, Excel, PowerPoint, Redes Sociales, etc."
+  },
+  "headerSection": {
+    "subtitle": "Hola, soy",
+    "title": "Gerard Loriz",
+    "mono": "Técnico superior en desarrollo de aplicaciones multiplataforma",
+    "socialLinks": [
+      {
+        "platform": "Twitter",
+        "url": "https://x.com/byjacki12?t=8xClF2LnxDgyy8-hA3rsKQ&s=09",
+        "icon": "ti-twitter"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/byjacki12/",
+        "icon": "ti-instagram"
+      },
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/Gerijacki",
+        "icon": "ti-github"
+      },
+      {
+        "platform": "TryHackMe",
+        "url": "https://tryhackme.com/p/F1ch3u5",
+        "icon": "ti-envelope"
+      }
+    ]
+  },
+  "resumeSection": {
+    "title": "Mi Currículum",
+    "experience": {
+      "title": "Experiencia",
+      "items": [
+        {
+          "position": "Desarrollador junior",
+          "company": "Empresa del sector farmacéutico",
+          "period": "04/2024 - Actualidad"
+        },
+        {
+          "position": "Técnico informático",
+          "company": "Escuela pública",
+          "period": "10/2022 - 06/2023"
+        }
+      ]
+    },
+    "studies": {
+      "title": "Estudios",
+      "items": [
+        {
+          "title": "Ciclo superior de desarrollo de aplicaciones multiplataforma",
+          "period": "09/2023 - Actualidad"
+        },
+        {
+          "title": "Ciclo medio de sistemas microinformáticos y redes",
+          "period": "09/2021 - 05/2023"
+        },
+        {
+          "title": "Educación Secundaria Obligatoria. Itinerario Tecnológico",
+          "period": "09/2017 - 07/2021"
+        }
+      ]
+    },
+    "tools": {
+      "title": "Herramientas",
+      "skills": [
+        {
+          "name": "Web (HTML / CSS / PHP / Laravel / Nodejs)",
+          "level": "83%"
+        },
+        {
+          "name": "Java",
+          "level": "50%"
+        },
+        {
+          "name": "Sistemas Operativos (Linux / bash / active directory)",
+          "level": "80%"
+        },
+        {
+          "name": "Python",
+          "level": "85%"
+        },
+        {
+          "name": "Ofimática y redes sociales",
+          "level": "95%"
+        }
+      ]
+    },
+    "languages": {
+      "title": "Idiomas",
+      "skills": [
+        {
+          "name": "Inglés",
+          "level": "B2",
+          "percentage": "50%"
+        },
+        {
+          "name": "Catalán",
+          "level": "Nativo",
+          "percentage": "99%"
+        },
+        {
+          "name": "Español",
+          "level": "Nativo",
+          "percentage": "80%"
+        }
+      ]
+    }
+  }
+}

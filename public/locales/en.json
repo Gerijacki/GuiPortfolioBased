@@ -1,0 +1,202 @@
+{
+  "home": "Home",
+  "resume": "Resume",
+  "projects": "Projects",
+  "contact": "Contact",
+  "projectsSection": {
+    "titlePrefix": "My",
+    "title": "projects",
+    "projectList": [
+      {
+        "name": "CF PBB LA ROCA",
+        "description": "Development of the official website of the Penya blanca i blava la roca Football Club",
+        "link": "https://cfpbblaroca.com",
+        "linkText": "Website",
+        "icon": "layout-cta-left"
+      },
+      {
+        "name": "EduQuack",
+        "description": "A social network focused on a school intranet. It allows communication of news to students, chatting among them, and creating groups with teachers.",
+        "link": "https://github.com/DuckHats/eduQuack",
+        "linkText": "Github",
+        "icon": "write"
+      },
+      {
+        "name": "Google-SignIn",
+        "description": "A GitHub project on how to make a phishing server based on the zPhisher tool.",
+        "link": "https://github.com/SergiGiribet/google-SignIn",
+        "linkText": "Github",
+        "icon": "vector"
+      },
+      {
+        "name": "passWifi",
+        "description": "Automation scripts for 'deauth' practice and hash decryption.",
+        "link": "https://github.com/Gerijacki/passWifi",
+        "linkText": "Github",
+        "icon": "signal"
+      },
+      {
+        "name": "Shadowbyte",
+        "description": "A basic utility application for everyday use, made with Python.",
+        "link": "https://github.com/Gerijacki/Shadowbyte",
+        "linkText": "Github",
+        "icon": "widget"
+      },
+      {
+        "name": "Cyber_Startupv2",
+        "description": "This repository serves as a centralized hub for various cybersecurity materials, including scripts, resources, and information.",
+        "link": "https://github.com/Gerijacki/Cyber_Startupv2",
+        "linkText": "Github",
+        "icon": "rss-alt"
+      }
+    ]
+  },
+  "aboutSection": {
+    "title": "Who am I?",
+    "content1": "Hello! I am a young enthusiast of technology, always curious to understand how things work and with a strong passion for everything related to computing. Since I was little, I have loved exploring, disassembling, and creating. This curiosity has led me to specialize in web development, programming, and cybersecurity, fields where I can channel both my creativity and my interest in offering secure and effective solutions.",
+    "content2": "I like to get fully involved in each project, from the initial concept to the final implementation, ensuring that every detail works perfectly and is secure. Whenever I encounter a technological challenge, I see it as an opportunity to grow and test my skills.",
+    "content3": "With a mindset of continuous improvement, I am constantly looking for ways to innovate and stay up to date with the latest technological trends. I believe that every project is a learning opportunity and a reflection of my commitment and passion for technology."
+  },
+  "contactSection": {
+    "title": "Personal Information and Contact",
+    "info": {
+      "title": "Birth Date",
+      "birthDate": "12/12/2005",
+      "email": "gerijackidev@gmail.com"
+    },
+    "socialLinks": [
+      {
+        "platform": "Twitter",
+        "url": "https://x.com/byjacki12?t=8xClF2LnxDgyy8-hA3rsKQ&s=09"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/byjacki12/"
+      },
+      {
+        "platform": "Github",
+        "url": "https://github.com/Gerijacki"
+      },
+      {
+        "platform": "TryHackMe",
+        "url": "https://tryhackme.com/p/F1ch3u5"
+      }
+    ]
+  },
+  "servicesSection": {
+    "title": "Services",
+    "designName": "Web Design",
+    "designDescription": "WordPress / HTML / CSS / PHP / Laravel",
+    "serverName": "Server Management",
+    "serverDescription": "Managing computer networks in business environments.",
+    "offName": "Office Applications",
+    "offDescription": "Word, Excel, PowerPoint, Social Networks, etc."
+  },
+  "headerSection": {
+    "subtitle": "Hello, I am",
+    "title": "Gerard Loriz",
+    "mono": "Higher Technician in Multiplatform Application Development",
+    "socialLinks": [
+      {
+        "platform": "Twitter",
+        "url": "https://x.com/byjacki12?t=8xClF2LnxDgyy8-hA3rsKQ&s=09",
+        "icon": "ti-twitter"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/byjacki12/",
+        "icon": "ti-instagram"
+      },
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/Gerijacki",
+        "icon": "ti-github"
+      },
+      {
+        "platform": "TryHackMe",
+        "url": "https://tryhackme.com/p/F1ch3u5",
+        "icon": "ti-envelope"
+      }
+    ]
+  },
+  "resumeSection": {
+    "title": "My Resume",
+    "experience": {
+      "title": "Experience",
+      "items": [
+        {
+          "position": "Junior Developer",
+          "company": "Pharmaceutical Industry",
+          "period": "04/2024 - Present"
+        },
+        {
+          "position": "IT Technician",
+          "company": "Public School",
+          "period": "10/2022 - 06/2023"
+        }
+      ]
+    },
+    "studies": {
+      "title": "Studies",
+      "items": [
+        {
+          "title": "Higher Cycle in Multiplatform Application Development",
+          "period": "09/2023 - Present"
+        },
+        {
+          "title": "Intermediate Cycle in Microinformatics Systems and Networks",
+          "period": "09/2021 - 05/2023"
+        },
+        {
+          "title": "Compulsory Secondary Education. Technological Track",
+          "period": "09/2017 - 07/2021"
+        }
+      ]
+    },
+    "tools": {
+      "title": "Tools",
+      "skills": [
+        {
+          "name": "Web (HTML / CSS / PHP / Laravel / Nodejs)",
+          "level": "83%"
+        },
+        {
+          "name": "Java",
+          "level": "50%"
+        },
+        {
+          "name": "Operating Systems (Linux / bash / active directory)",
+          "level": "80%"
+        },
+        {
+          "name": "Python",
+          "level": "85%"
+        },
+        {
+          "name": "Office Applications and Social Networks",
+          "level": "95%"
+        }
+      ]
+    },
+    "languages": {
+      "title": "Languages",
+      "skills": [
+        {
+          "name": "English",
+          "level": "B2",
+          "percentage": "50%"
+        },
+        {
+          "name": "Catalan",
+          "level": "Native",
+          "percentage": "99%"
+        },
+        {
+          "name": "Spanish",
+          "level": "Native",
+          "percentage": "80%"
+        }
+      ]
+    }
+  }
+}
