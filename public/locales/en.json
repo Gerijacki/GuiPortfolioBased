@@ -86,7 +86,7 @@
   "servicesSection": {
     "title": "Services",
     "designName": "Web Design",
-    "designDescription": "WordPress / HTML / CSS / PHP / Laravel",
+    "designDescription": "WordPress / HTML / SCSS / PHP / Laravel",
     "serverName": "Server Management",
     "serverDescription": "Managing computer networks in business environments.",
     "offName": "Office Applications",
@@ -157,15 +157,19 @@
       "title": "Tools",
       "skills": [
         {
-          "name": "Web (HTML / CSS / PHP / Laravel / Nodejs)",
+          "name": "Web Backend (PHP / Laravel)",
           "level": "83%"
+        },
+        {
+          "name": "Web Frontend (HTML / SCSS / Nodejs)",
+          "level": "50%"
         },
         {
           "name": "Java",
           "level": "50%"
         },
         {
-          "name": "Operating Systems (Linux / bash / active directory)",
+          "name": "Operating Systems (Linux / active directory)",
           "level": "80%"
         },
         {

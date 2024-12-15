@@ -157,15 +157,19 @@
       "title": "Eines",
       "skills": [
         {
-          "name": "Web (HTML / CSS / PHP / Laravel / Nodejs)",
+          "name": "Web Backend (PHP / Laravel)",
           "level": "83%"
+        },
+        {
+          "name": "Web Frontend (HTML / SCSS / Nodejs)",
+          "level": "50%"
         },
         {
           "name": "Java",
           "level": "50%"
         },
         {
-          "name": "Sistemes Operatius (Linux / bash / active directory)",
+          "name": "Sistemes Operatius (Linux / active directory)",
           "level": "80%"
         },
         {
