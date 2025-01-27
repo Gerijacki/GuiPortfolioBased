@@ -8,18 +8,18 @@
     "title": "proyectos",
     "projectList": [
       {
+        "name": "Cooming Soon",
+        "description": "Estoy trabajando duro en algo sorprendente! Atentos a las actualizaciones...",
+        "link": "https://github.com/DuckHats/eduQuack",
+        "linkText": "Github",
+        "icon": "write"
+      },
+      {
         "name": "CF PBB LA ROCA",
         "description": "Desarrollo de la página web oficial del Club de Fútbol Penya blanca i blava la roca",
         "link": "https://cfpbblaroca.com",
         "linkText": "Web",
         "icon": "layout-cta-left"
-      },
-      {
-        "name": "EduQuack",
-        "description": "Red social enfocada a una intranet escolar. Permite comunicar novedades a los alumnos, chatear entre ellos y crear grupos con los profesores.",
-        "link": "https://github.com/DuckHats/eduQuack",
-        "linkText": "Github",
-        "icon": "write"
       },
       {
         "name": "Google-SignIn",
