@@ -15,6 +15,13 @@
         "icon": "write"
       },
       {
+        "name": "Github_Api_Manager",
+        "description": "Python terminal-based application on how to manage GitHub with the official API.",
+        "link": "https://github.com/Gerijacki/GitHub_Api_Manager",
+        "linkText": "Github",
+        "icon": "layout-tab"
+      },
+      {
         "name": "CF PBB LA ROCA",
         "description": "Development of the official website of the Penya blanca i blava la roca Football Club",
         "link": "https://cfpbblaroca.com",
