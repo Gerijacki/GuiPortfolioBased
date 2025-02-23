@@ -93,7 +93,7 @@ const Navbar = () => {
             </li>
           </ul>
           <ul className="navbar-nav brand">
-            <img src="/imgs/avatar.jpg" alt="" className="brand-img" />
+            <img src="/imgs/avatar.webp" alt="" className="brand-img" />
             <li className="brand-txt">
               <h5 className="brand-title">{translations.navbar_title || "Gerard Loriz"}</h5>
               <div className="brand-subtitle">{translations.navbar_subtitle || "Web Designer | IT Technician"}</div>
