@@ -9522,45 +9522,96 @@ pre .code {
   margin-top: 10px;
 }/*# sourceMappingURL=main.css.map */
 
-/* Selector del idioma */
-.language-select-container {
+/* Selector idioma */
+.language-selector.desktop-only {
   position: fixed;
-  top: 20px;
-  right: 10px;
+  top: 10px;
+  right: 20px;
   display: flex;
   align-items: center;
-  border-radius: 20px;
-  overflow: hidden;
-  transition: visibility 0.3s ease; 
-  border: 2px solid #653e7f; 
-  visibility: visible; 
+  gap: 10px;
+  background: #4a2f5c;
+  padding: 8px 12px;
+  border-radius: 15px;
+  color: white;
 }
 
-.language-select-container select {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  padding: 10px 15px;
-  font-size: 16px;
-  border: none;
+.language-icon {
+  color: white;
+  font-size: 24px;
+}
+
+.language-selector .MuiBreadcrumbs-root {
+  color: white;
   background-color: transparent;
-  color: #007bff;
+}
+
+.language-selector a {
   cursor: pointer;
-  outline: none;
-  transition: all 0.3s ease;
+  color: #ddd;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
 }
 
-.language-select-container i {
-  margin-right: 10px;
-  color: #653e7f; 
-  transition: all 0.3s ease;
+.language-selector .active-lang {
+  color: #FF8882 !important;
+  text-decoration: underline;
 }
 
-.language-select-container option {
-  background-color: #fff;
-  color: #653e7f;
+.language-selector a:hover {
+  color: #ffffff;
 }
 
-.language-select-container option:hover {
-  background-color: #f0f0f0;
+.language-selector.mobile-only {
+  display: none;
+}
+
+.language-selector.mobile-only .language-menu-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #4a2f5c;
+  border-radius: 50%;
+  padding: 10px;
+  z-index: 1050;
+  transition: transform 0.3s ease;
+}
+
+.language-selector.mobile-only .language-menu-button:hover {
+  transform: scale(1.1);
+}
+
+.language-selector.mobile-only .language-menu-icon {
+  color: white;
+  font-size: 28px;
+}
+
+.language-menu {
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.language-menu .MuiMenuItem-root {
+  font-weight: 500;
+  padding: 10px 20px;
+  color: #333;
+  transition: background 0.3s ease;
+}
+
+.language-menu .MuiMenuItem-root:hover {
+  background-color: #f5f5f5;
+}
+
+.language-selector.mobile-only .MuiBackdrop-root {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .language-selector.desktop-only {
+    display: none;
+  }
+  .language-selector.mobile-only {
+    display: flex;
+  }
 }
