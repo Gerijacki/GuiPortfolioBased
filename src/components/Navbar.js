@@ -102,7 +102,7 @@ const Navbar = () => {
 
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a href="https://termfolio-gerijacki.vercel.app/" className="nav-link">
+              <a href="https://terminal.gerardloriz.com/" className="nav-link">
                 {translations.terminal || "Terminal"}
               </a>
             </li>
