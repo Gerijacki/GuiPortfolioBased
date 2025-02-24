@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import { LanguageContext } from "./LanguageContext";
 import { Breadcrumbs, Link, IconButton, Menu, MenuItem } from "@mui/material";
 import LanguageIcon from "@mui/icons-material/Language";
@@ -6,6 +6,7 @@ import LanguageIcon from "@mui/icons-material/Language";
 const Header = () => {
   const { language, translations, changeLanguage } = useContext(LanguageContext);
   const [anchorEl, setAnchorEl] = useState(null);
+  const [isLanguageIconVisible, setIsLanguageIconVisible] = useState(true);
 
   const handleMenuClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -15,6 +16,18 @@ const Header = () => {
     setAnchorEl(null);
     if (lang) changeLanguage(lang);
   };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollThreshold = 250;
+      setIsLanguageIconVisible(window.scrollY <= scrollThreshold);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <header className="header" id="home">
@@ -35,7 +48,7 @@ const Header = () => {
           <h6 className="header-mono">{translations.headerSection.mono}</h6>
         </div>
 
-        {/* Selector de idioma pc */}
+        {/* Selector de idioma PC */}
         <div className="language-selector desktop-only">
           <LanguageIcon className="language-icon" />
           <Breadcrumbs aria-label="breadcrumb">
@@ -51,8 +64,8 @@ const Header = () => {
           </Breadcrumbs>
         </div>
 
-        {/* Selector de idioma telf */}
-        <div className="language-selector mobile-only">
+        {/* Selector de idioma móvil */}
+        <div className={`language-selector mobile-only ${isLanguageIconVisible ? '' : 'hidden'}`}>
           <IconButton onClick={handleMenuClick} className="language-menu-button">
             <LanguageIcon className="language-menu-icon" />
           </IconButton>

@@ -9607,6 +9607,10 @@ pre .code {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.hidden {
+  display: none !important;
+}
+
 @media (max-width: 768px) {
   .language-selector.desktop-only {
     display: none;
