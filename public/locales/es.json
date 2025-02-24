@@ -60,9 +60,9 @@
   },
   "aboutSection": {
     "title": "¿Quién soy?",
-    "content1": "¡Hola! Soy un joven apasionado por la tecnología, siempre curioso por entender cómo funcionan las cosas y con una gran afición por todo lo relacionado con la informática. Desde pequeño, me ha encantado explorar, desarmar y crear. Esta curiosidad me ha llevado a especializarme en el desarrollo web, la programación y la ciberseguridad, campos en los que puedo canalizar tanto mi creatividad como mi interés por ofrecer soluciones seguras y efectivas.",
-    "content2": "Me gusta involucrarme al máximo en cada proyecto, desde el concepto inicial hasta su implementación final, asegurándome de que cada detalle funcione a la perfección y sea seguro. Siempre que me encuentro con un desafío tecnológico, lo veo como una oportunidad para crecer y poner a prueba mis habilidades.",
-    "content3": "Con una mentalidad de mejora continua, estoy constantemente buscando formas de innovar y estar al día con las últimas tendencias tecnológicas. Creo que cada proyecto es una oportunidad de aprendizaje y un reflejo de mi compromiso y pasión por la tecnología."
+    "content1": "¡Hola! Soy Gerard, un apasionado de la tecnología y la programación. Desde pequeño me ha fascinado entender cómo funcionan las cosas, y esa curiosidad me ha llevado a especializarme en el desarrollo web y la ciberseguridad. No se trata solo de escribir código, sino de crear soluciones útiles y eficientes que marquen la diferencia.",
+    "content2": "Lo que más disfruto es sumergirme en los proyectos y cuidar cada detalle, desde la arquitectura inicial hasta el último ajuste. Para mí, cada reto es una oportunidad para mejorar, aprender y encontrar nuevas formas de hacer las cosas más fáciles, seguras y efectivas.",
+    "content3": "Siempre estoy explorando nuevas tecnologías y perfeccionando lo que hago. Creo que la mejor manera de crecer es experimentar, equivocarse y seguir avanzando. Si tienes un proyecto en mente o simplemente quieres hablar sobre tecnología, ¡estaré encantado de escucharte!"
   },
   "contactSection": {
     "title": "Información Personal y Contacto",
@@ -104,22 +104,42 @@
     ]
   },
   "servicesSection": {
-    "title": "Servicios",
+    "title": "Mi Backend",
     "services": [
       {
-        "name": "Diseño de páginas web",
-        "description": "Creación de webs modernas y responsivas.",
-        "icon": "ti-widget"
+        "name": "Desarrollo e Integración de API",
+        "description": "Diseño e implementación de APIs RESTful y GraphQL robustas.",
+        "icon": "ti-exchange-vertical"
       },
       {
-        "name": "Configuración de servidores",
-        "description": "Configuración segura de servidores para proyectos.",
-        "icon": "ti-paint-bucket"
+        "name": "Gestión y Optimización de Bases de Datos",
+        "description": "Trabajando con bases de datos relacionales (MySQL, PostgreSQL) y NoSQL (MongoDB, Redis).",
+        "icon": "ti-server"
       },
       {
-        "name": "Optimización de aplicaciones",
-        "description": "Mejora del rendimiento y velocidad de las aplicaciones.",
-        "icon": "ti-stats-up"
+        "name": "Autenticación y Seguridad",
+        "description": "Implementación de OAuth, JWT y otras medidas de seguridad para proteger aplicaciones.",
+        "icon": "ti-lock"
+      },
+      {
+        "name": "Despliegue en Servidores y Nube",
+        "description": "Desplegando y gestionando aplicaciones en Docker y entornos Linux.",
+        "icon": "ti-cloud"
+      },
+      {
+        "name": "Optimización del Rendimiento",
+        "description": "Mejorando los tiempos de respuesta del servidor, estrategias de caché y optimización de consultas a bases de datos.",
+        "icon": "ti-bar-chart"
+      },
+      {
+        "name": "Microservicios y Arquitecturas Escalables",
+        "description": "Construcción de servicios backend escalables y fáciles de mantener con microservicios.",
+        "icon": "ti-layout-grid3"
+      },
+      {
+        "name": "CI/CD y Prácticas DevOps",
+        "description": "Automatización de flujos de trabajo con herramientas como GitHub Actions, Jenkins y Docker.",
+        "icon": "ti-reload"
       }
     ]
   },

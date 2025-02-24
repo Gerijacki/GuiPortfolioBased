@@ -60,9 +60,9 @@
   },
   "aboutSection": {
     "title": "Who am I?",
-    "content1": "Hello! I am a young enthusiast of technology, always curious to understand how things work and with a strong passion for everything related to computing. Since I was little, I have loved exploring, disassembling, and creating. This curiosity has led me to specialize in web development, programming, and cybersecurity, fields where I can channel both my creativity and my interest in offering secure and effective solutions.",
-    "content2": "I like to get fully involved in each project, from the initial concept to the final implementation, ensuring that every detail works perfectly and is secure. Whenever I encounter a technological challenge, I see it as an opportunity to grow and test my skills.",
-    "content3": "With a mindset of continuous improvement, I am constantly looking for ways to innovate and stay up to date with the latest technological trends. I believe that every project is a learning opportunity and a reflection of my commitment and passion for technology."
+    "content1": "Hi! I'm Gerard, a technology and programming enthusiast. Ever since I was a kid, I’ve been fascinated by understanding how things work, and this curiosity led me to specialize in web development and cybersecurity. It's not just about writing code; it's about creating useful and efficient solutions that make a difference.",
+    "content2": "What I enjoy the most is diving into projects and paying attention to every detail, from the initial architecture to the final tweaks. For me, every challenge is an opportunity to improve, learn, and find new ways to make things easier, safer, and more efficient.",
+    "content3": "I'm always exploring new technologies and refining my skills. I believe the best way to grow is by experimenting, making mistakes, and pushing forward. If you have a project in mind or just want to talk about technology, I'd love to hear from you!"
   },
   "contactSection": {
     "title": "Personal Information and Contact",
@@ -104,22 +104,42 @@
     ]
   },
   "servicesSection": {
-    "title": "Services",
+    "title": "My Backend",
     "services": [
       {
-        "name": "Web Page Design",
-        "description": "Creation of modern and responsive websites.",
-        "icon": "ti-widget"
+        "name": "API Development & Integration",
+        "description": "Designing and implementing robust RESTful APIs.",
+        "icon": "ti-exchange-vertical"
       },
       {
-        "name": "Server Configuration",
-        "description": "Secure server setup for projects.",
-        "icon": "ti-paint-bucket"
+        "name": "Database Management & Optimization",
+        "description": "Working with relational (MySQL, PostgreSQL) and NoSQL (MongoDB, Redis) databases.",
+        "icon": "ti-server"
       },
       {
-        "name": "Application Optimization",
-        "description": "Improvement of application performance and speed.",
-        "icon": "ti-stats-up"
+        "name": "Authentication & Security",
+        "description": "Implementing OAuth, JWT, and other security measures to protect applications.",
+        "icon": "ti-lock"
+      },
+      {
+        "name": "Server & Cloud Deployment",
+        "description": "Deploying and managing applications on Docker and Linux environments.",
+        "icon": "ti-cloud"
+      },
+      {
+        "name": "Performance Optimization",
+        "description": "Improving server response times, caching strategies, and optimizing database queries.",
+        "icon": "ti-bar-chart"
+      },
+      {
+        "name": "Microservices & Scalable Architectures",
+        "description": "Building scalable and maintainable backend services using microservices.",
+        "icon": "ti-layout-grid3"
+      },
+      {
+        "name": "CI/CD & DevOps Practices",
+        "description": "Automating workflows with tools like GitHub Actions, Jenkins, and Docker.",
+        "icon": "ti-reload"
       }
     ]
   },

@@ -5,7 +5,7 @@ export const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
   const { lang } = useParams();
-  const [language, setLanguage] = useState(lang || 'cat'); // cat default
+  const [language, setLanguage] = useState(lang || 'en'); // en default
   const [translations, setTranslations] = useState(() => {
     const savedTranslations = localStorage.getItem(`translations_${lang}`);
     return savedTranslations ? JSON.parse(savedTranslations) : {};

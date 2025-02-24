@@ -59,10 +59,10 @@
     ]
   },
   "aboutSection": {
-    "title": "Qui soc?",
-    "content1": "Hola! Sóc un jove apassionat per la tecnologia, sempre encuriosit per entendre com funcionen les coses i amb una gran afició per tot el que envolta la informàtica. Des de ben petit, m'ha encantat explorar, desmuntar i crear. Aquesta curiositat m'ha portat a especialitzar-me en la creació web, la programació i la ciberseguretat, camps en què puc canalitzar tant la meva creativitat com el meu interès per oferir solucions segures i efectives.",
-    "content2": "M'agrada implicar-me al màxim en cada projecte, des del concepte inicial fins a la seva implementació final, assegurant-me que cada detall funcioni a la perfecció i sigui segur. Sempre que em trobo amb un repte tecnològic, el veig com una oportunitat per créixer i posar a prova les meves habilitats.",
-    "content3": "Amb una mentalitat de millora contínua, estic constantment buscant formes d'innovar i d'estar al dia amb les últimes tendències tecnològiques. Crec que cada projecte és una oportunitat d’aprenentatge i un reflex del meu compromís i passió per la tecnologia."
+    "title": "Qui sóc?",
+    "content1": "Hola! Soc en Gerard, un apassionat de la tecnologia i la programació. Des de ben petit m’ha fascinat entendre com funcionen les coses, i aquesta curiositat m’ha portat a especialitzar-me en el desenvolupament web i la ciberseguretat. No es tracta només de codificar, sinó de crear solucions útils i eficients que facin la diferència.",
+    "content2": "El que més gaudeixo és endinsar-me en els projectes i cuidar cada detall, des de l’arquitectura inicial fins a l’últim ajust. Per mi, cada repte és una oportunitat per millorar, aprendre i trobar noves formes de fer les coses més fàcils, segures i efectives.",
+    "content3": "Sempre estic explorant noves tecnologies i perfeccionant el que faig. Crec que la millor manera de créixer és experimentar, equivocar-se i seguir avançant. Si tens un projecte en ment o simplement vols parlar sobre tecnologia, estaré encantat d’escoltar-te!"
   },
   "contactSection": {
     "title": "Informació Personal i Contacte",
@@ -104,22 +104,42 @@
     ]
   },
   "servicesSection": {
-    "title": "Serveis",
+    "title": "El meu Backend",
     "services": [
       {
-        "name": "Disseny de pàgines web",
-        "description": "Creació de webs modernes i responsives.",
-        "icon": "ti-widget"
+        "name": "Desenvolupament i Integració d'API",
+        "description": "Disseny i implementació de APIs RESTful i GraphQL robustes.",
+        "icon": "ti-exchange-vertical"
       },
       {
-        "name": "Configuració de servidors",
-        "description": "Configuració segura de servidors per a projectes.",
-        "icon": "ti-paint-bucket"
+        "name": "Gestió i Optimització de Bases de Dades",
+        "description": "Treballant amb bases de dades relacionals (MySQL, PostgreSQL) i NoSQL (MongoDB, Redis).",
+        "icon": "ti-server"
       },
       {
-        "name": "Optimització d'aplicacions",
-        "description": "Millora del rendiment i velocitat de les aplicacions.",
-        "icon": "ti-stats-up"
+        "name": "Autenticació i Seguretat",
+        "description": "Implementació de OAuth, JWT i altres mesures de seguretat per protegir aplicacions.",
+        "icon": "ti-lock"
+      },
+      {
+        "name": "Desplegament en Servidors i Núvol",
+        "description": "Desplegant i gestionant aplicacions en Docker i entorns Linux.",
+        "icon": "ti-cloud"
+      },
+      {
+        "name": "Optimització del Rendiment",
+        "description": "Millorant els temps de resposta del servidor, estratègies de memòria cau i optimització de consultes a bases de dades.",
+        "icon": "ti-bar-chart"
+      },
+      {
+        "name": "Microserveis i Arquitectures Escalables",
+        "description": "Construcció de serveis backend escalables i fàcils de mantenir amb microserveis.",
+        "icon": "ti-layout-grid3"
+      },
+      {
+        "name": "CI/CD i Pràctiques DevOps",
+        "description": "Automatització de fluxos de treball amb eines com GitHub Actions, Jenkins i Docker.",
+        "icon": "ti-reload"
       }
     ]
   },
