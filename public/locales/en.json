@@ -68,12 +68,20 @@
     "title": "Personal Information and Contact",
     "info": [
       {
-        "label": "Date of Birth",
-        "value": "12/12/2005"
+        "label": "Full Name",
+        "value": "Gerard Loriz"
       },
       {
         "label": "Email",
         "value": "gerijackidev@gmail.com"
+      },
+      {
+        "label": "Date of Birth",
+        "value": "12/12/2005"
+      },
+      {
+        "label": "City",
+        "value": "Barcelona"
       }
     ],
     "socialLinks": [

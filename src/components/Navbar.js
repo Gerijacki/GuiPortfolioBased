@@ -4,9 +4,10 @@ import { LanguageContext } from './LanguageContext';
 const Navbar = () => {
   const { language, translations, changeLanguage } = useContext(LanguageContext);
   const [activeSection, setActiveSection] = useState('home');
+  const [isImageVisible, setIsImageVisible] = useState(true);
+  const [isTextVisible, setIsTextVisible] = useState(false);
 
   useEffect(() => {
-    // Lógica para detectar la sección activa
     const sections = document.querySelectorAll('section');
     const handleScroll = () => {
       let currentSection = 'home';
@@ -18,6 +19,13 @@ const Navbar = () => {
         }
       });
       setActiveSection(currentSection);
+      if (window.scrollY > 100) {
+        setIsImageVisible(false);
+        setIsTextVisible(true);
+      } else {
+        setIsImageVisible(true);
+        setIsTextVisible(false);
+      }
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -28,7 +36,6 @@ const Navbar = () => {
   }, []);
 
   useEffect(() => {
-    // Lógica para cambiar idioma
     const languageSelect = document.getElementById('languageSelect');
     const handleLanguageChange = (event) => {
       const selectedLanguage = event.target.value;
@@ -93,10 +100,14 @@ const Navbar = () => {
             </li>
           </ul>
           <ul className="navbar-nav brand">
-            <img src="/imgs/avatar.webp" alt="" className="brand-img" />
-            <li className="brand-txt">
-              <h5 className="brand-title">{translations.navbar_title || "Gerard Loriz"}</h5>
-              <div className="brand-subtitle">{translations.navbar_subtitle || "Web Designer | IT Technician"}</div>
+            <img 
+              src="/imgs/avatar.webp" 
+              alt="" 
+              className={`brand-img ${isImageVisible ? '' : 'hidden'}`} 
+            />
+            <li className={`brand-txt ${isTextVisible ? 'visible' : ''}`}>
+              <h5 className="dev-name">{translations.navbar_title || "Gerard Loriz"}</h5>
+              <div className="dev-position">{translations.navbar_subtitle || "Web Designer | IT Technician"}</div>
             </li>
           </ul>
 

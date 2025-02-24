@@ -68,12 +68,20 @@
     "title": "Informació Personal i Contacte",
     "info": [
       {
-        "label": "Data de naixement",
-        "value": "12/12/2005"
+        "label": "Nom i cognoms",
+        "value": "Gerard Loriz Pou"
       },
       {
         "label": "Email",
         "value": "gerijackidev@gmail.com"
+      },
+      {
+        "label": "Data de naixement",
+        "value": "12/12/2005"
+      },
+      {
+        "label": "Ciutat",
+        "value": "Barcelona"
       }
     ],
     "socialLinks": [
