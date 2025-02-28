@@ -28,7 +28,7 @@ const Resume = () => {
                 <h2 className="mb-5"><span className="text-danger">{translations.resumeSection.titlePrefix}</span> {translations.resumeSection.title}</h2>
                 <div className="row d-flex align-items-stretch">
                     {/* Experiència */}
-                    <div className="col-md-6 col-lg-4">
+                    <div className="col-md-6 col-lg-14">
                         <div className="card">
                             <div className="card-header">
                                 <div className="mt-2">
@@ -46,9 +46,7 @@ const Resume = () => {
                             </div>
                         </div>
                     </div>
-
-                    {/* Estudis */}
-                    <div className="col-md-6 col-lg-4">
+                    <div className="col-md-6 col-lg-14">
                         <div className="card">
                             <div className="card-header">
                                 <div className="mt-2">
@@ -66,32 +64,9 @@ const Resume = () => {
                             </div>
                         </div>
                     </div>
-
-                    {/* Eines */}
-                    <div className="col-lg-4">
-                        <div className="card">
-                            <div className="card-header">
-                                <div className="d-flex justify-content-start align-items-center">
-                                    <h4 className="mt-2">{translations.resumeSection.tools.title}</h4>
-                                </div>
-                            </div>
-                            <div className="card-body pb-2">
-                                {translations.resumeSection.tools.skills.map((tool, index) => (
-                                    <div key={index}>
-                                        <h6>{tool.name}</h6>
-                                        <div className="progress mb-3">
-                                            <div className="progress-bar bg-danger" role="progressbar" style={{ width: tool.level }}
-                                                aria-valuenow={parseInt(tool.level)} aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
-
     );
 };
 

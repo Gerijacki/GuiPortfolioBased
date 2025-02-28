@@ -84,6 +84,9 @@
         "value": "Barcelona"
       }
     ],
+    "technologiesSection": {
+      "title": "Technologies"      
+    },
     "socialLinks": [
       {
         "icon": "ti-twitter",
@@ -201,35 +204,6 @@
         {
           "title": "Compulsory Secondary Education. Technological Track",
           "period": "09/2017 - 07/2021"
-        }
-      ]
-    },
-    "tools": {
-      "title": "Tools",
-      "skills": [
-        {
-          "name": "Web Backend (PHP / Laravel)",
-          "level": "83%"
-        },
-        {
-          "name": "Web Frontend (HTML / SCSS / Nodejs)",
-          "level": "50%"
-        },
-        {
-          "name": "Java",
-          "level": "50%"
-        },
-        {
-          "name": "Operating Systems (Linux / active directory)",
-          "level": "80%"
-        },
-        {
-          "name": "Python",
-          "level": "85%"
-        },
-        {
-          "name": "Office Applications and Social Networks",
-          "level": "95%"
         }
       ]
     },

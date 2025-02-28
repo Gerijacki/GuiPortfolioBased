@@ -1,5 +1,6 @@
 import React, { useContext, useEffect } from 'react';
 import { LanguageContext } from './LanguageContext';
+import technologies from './technologies';
 
 const About = () => {
     const { language, translations, changeLanguage } = useContext(LanguageContext);
@@ -49,7 +50,23 @@ const About = () => {
                             </li>
                         ))}
                     </ul>
+                    
+                    <div id='technologies' className="row about-section mt-5">
+                        <div className="col-lg-12 about-card text-center">
+                            <h3 className="font-weight-light">{translations.contactSection.technologiesSection.title}</h3>
+                            <span className="line mb-5"></span>
+                            <div className="d-flex justify-content-center flex-wrap">
+                                {technologies.map((tech, index) => (
+                                    <div key={index} className="tech-icon mx-3 text-center">
+                                        {tech.icon}
+                                        <p>{tech.name}</p>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
                 <div className="col-lg-4 about-card">
                     <h3 className="font-weight-light">{translations.servicesSection.title}</h3>
                     <span className="line mb-5"></span>

@@ -84,6 +84,9 @@
         "value": "Barcelona"
       }
     ],
+    "technologiesSection": {
+      "title": "Tecnologies"      
+    },
     "socialLinks": [
       {
         "icon": "ti-twitter",
@@ -201,35 +204,6 @@
         {
           "title": "Educació Secundària Obligatòria. Itinerari Tecnològic",
           "period": "09/2017 - 07/2021"
-        }
-      ]
-    },
-    "tools": {
-      "title": "Eines",
-      "skills": [
-        {
-          "name": "Web Backend (PHP / Laravel)",
-          "level": "83%"
-        },
-        {
-          "name": "Web Frontend (HTML / SCSS / Nodejs)",
-          "level": "50%"
-        },
-        {
-          "name": "Java",
-          "level": "50%"
-        },
-        {
-          "name": "Sistemes Operatius (Linux / active directory)",
-          "level": "80%"
-        },
-        {
-          "name": "Python",
-          "level": "85%"
-        },
-        {
-          "name": "Ofimàtica i xarxes socials",
-          "level": "95%"
         }
       ]
     },
