@@ -31,6 +31,25 @@ const About = () => {
                     <p className="mt-20">{translations.aboutSection.content1}</p>
                     <p className="mt-20">{translations.aboutSection.content2}</p>
                     <p className="mt-20">{translations.aboutSection.content3}</p>
+
+                    <div className="col-lg-12 about-card mt-4">
+                        <h3 className="font-weight-light">{translations.resumeSection.languages.title}</h3>
+                        <span className="line mb-3"></span>
+                        <ul className="list-unstyled">
+                            {translations.resumeSection.languages.skills.map((lang, index) => (
+                                <li key={index} className="mb-3">
+                                    <strong>{lang.name}</strong> - {lang.level} ({lang.percentage})
+                                    <div className="progress mt-2" style={{ height: '5x' }}>
+                                        <div className="progress-bar bg-primary" role="progressbar"
+                                            style={{ width: lang.percentage }}
+                                            aria-valuenow={parseInt(lang.percentage)}
+                                            aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
                 </div>
 
                 <div id='contact' className="col-lg-4 about-card">
@@ -50,7 +69,7 @@ const About = () => {
                             </li>
                         ))}
                     </ul>
-                    
+
                     <div id='technologies' className="row about-section mt-5">
                         <div className="col-lg-12 about-card text-center">
                             <h3 className="font-weight-light">{translations.contactSection.technologiesSection.title}</h3>
