@@ -15,6 +15,13 @@
         "icon": "write"
       },
       {
+        "name": "Stegnonfiles",
+        "description": "Stegnonfiles es un clon minimalista de AnonFiles. Permite subir archivos de forma anónima y cuenta con cifrado para proteger la privacidad.",
+        "link": "https://github.com/Gerijacki/stegnonfiles",
+        "linkText": "Github",
+        "icon": "lock"
+      },
+      {
         "name": "Github_Api_Manager",
         "description": "Aplicacion en python basada en terminal sobre cómo gestionar GitHub con la API oficial.",
         "link": "https://github.com/Gerijacki/GitHub_Api_Manager",
